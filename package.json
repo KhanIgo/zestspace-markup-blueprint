@@ -1,0 +1,30 @@
+{
+  "name": "markup-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khan Igor",
+  "license": "ISC",
+  "dependencies": {
+    "bemto.pug": "github:kizu/bemto",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch-pug": "^1.0.0",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3",
+    "run-sequence": "^2.2.1",
+    "sass": "^1.15.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

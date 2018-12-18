@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Circe";
+  src: url("./Thin/Circe.eot");
+  src: url("./Thin/Circe.eot?#iefix") format("embedded-opentype"), url("./Thin/Circe.woff") format("woff"), url("./Thin/Circe.ttf") format("truetype");
+  font-style: Thin;
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Circe";
+  src: url("./Extra_Light/Circe.eot");
+  src: url("./Extra_Light/Circe.eot?#iefix") format("embedded-opentype"), url("./Extra_Light/Circe.woff") format("woff"), url("./Extra_Light/Circe.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Circe";
+  src: url("./Light/Circe.eot");
+  src: url("./Light/Circe.eot?#iefix") format("embedded-opentype"), url("./Light/Circe.woff") format("woff"), url("./Light/Circe.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Circe";
+  src: url("./Regular/Circe.eot");
+  src: url("./Regular/Circe.eot?#iefix") format("embedded-opentype"), url("./Regular/Circe.woff") format("woff"), url("./Regular/Circe.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Circe";
+  src: url("./Bold/Circe.eot");
+  src: url("./Bold/Circe.eot?#iefix") format("embedded-opentype"), url("./Bold/Circe.woff") format("woff"), url("./Bold/Circe.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Circe";
+  src: url("./Extra_Bold/Circe.eot");
+  src: url("./Extra_Bold/Circe.eot?#iefix") format("embedded-opentype"), url("./Extra_Bold/Circe.woff") format("woff"), url("./Extra_Bold/Circe.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800; }
+
+/*# sourceMappingURL=font.css.map */
