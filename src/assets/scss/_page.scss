@@ -1,22 +1,4 @@
 body{
     font-family: Circe;
     font-size: 16px;
-    color: $c-pink-3;
-}
-.body-landing{
-    background: $c-pink-1 url('../img/body-bg.jpg') no-repeat;
-    background-position: 0 0;
-    @media (max-width: 1900px) {
-        $bgp:  calc( 585px - 50vw - 315px );
-        background-position: $bgp top;
-    }
-    
-}
-
-
-
-.s{
-    &__container{}
-    &__title{}
-    
 }

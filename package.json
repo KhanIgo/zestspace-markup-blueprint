@@ -1,5 +1,5 @@
 {
-  "name": "markup-test",
+  "name": "markup-blueprint",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,12 @@
   "author": "Khan Igor",
   "license": "ISC",
   "dependencies": {
-    "bemto.pug": "github:kizu/bemto",
+    "bemto.pug": "git+https://github.com/kizu/bemto.git",
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
@@ -22,7 +22,7 @@
     "node-sass": "^4.11.0",
     "pug": "^2.0.3",
     "run-sequence": "^2.2.1",
-    "sass": "^1.15.2"
+    "sass": "^1.15.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
