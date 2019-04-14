@@ -3,24 +3,20 @@
     margin: 0;
     padding: 0;
 }
+$paddings: 15px;
 body{
     font-size: 16px;
     width: 100vw;
-    overflow-x: hidden;
-    >.row{
-        width: 100vw;
-        
-    }
 }
 .row{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: $paddings;
+    padding-right: $paddings;
 }
 .row-flex{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: $paddings;
+    padding-right: $paddings;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -57,27 +53,6 @@ body>.row, body>.row-flex{
 .pr0{
     padding-right: 0;
 }
-.screen{
-    width: 100%;
-    height: 100vh;
-    min-height: 700px;
-    >.container{
-        height: 100%;
-    }
-}
-.cont-col-left{
-    @media (min-width: 1170px) {
-        width: calc( 50vw - 585px + 370px);
-        padding-left: calc(50vw - 585px);
-    }
-}
-.cont-col-right{
-    
-}
-
-.gr-col{
-    float: left;
-}
 .col-1{width: 8.3333%;}
 .col-2{width: 16.6666%;}
 .col-3{width: 25%;}
@@ -91,70 +66,6 @@ body>.row, body>.row-flex{
 .col-11{width: 91.6666%;}
 .col-12{ width: 100%; }
 
-@media (min-width: 1170px) {
-    .lg-col{
-        &-1{width: 8.3333%;}
-        &-2{width: 16.6666%;}
-        &-3{width: 25%;}
-        &-4{width: 33.3333%;}
-        &-5{width: 41.6666%;}
-        &-6{width: 50%;}
-        &-7{width: 58.3333%;}
-        &-8{width: 66.6666%;}
-        &-9{width: 75%;}
-        &-10{width: 83.3333%;}
-        &-11{width: 91.6666%;}
-        &-12{ width: 100%; }
-    }
-}
-@media (min-width: 960px) and (max-width: 1170px){
-    .md-col{
-        &-1{width: 8.3333%;}
-        &-2{width: 16.6666%;}
-        &-3{width: 25%;}
-        &-4{width: 33.3333%;}
-        &-5{width: 41.6666%;}
-        &-6{width: 50%;}
-        &-7{width: 58.3333%;}
-        &-8{width: 66.6666%;}
-        &-9{width: 75%;}
-        &-10{width: 83.3333%;}
-        &-11{width: 91.6666%;}
-        &-12{ width: 100%; }
-    }
-}
-@media (min-width: 600px) and (max-width: 960px){
-    .sm-col{
-        &-1{width: 8.3333%;}
-        &-2{width: 16.6666%;}
-        &-3{width: 25%;}
-        &-4{width: 33.3333%;}
-        &-5{width: 41.6666%;}
-        &-6{width: 50%;}
-        &-7{width: 58.3333%;}
-        &-8{width: 66.6666%;}
-        &-9{width: 75%;}
-        &-10{width: 83.3333%;}
-        &-11{width: 91.6666%;}
-        &-12{ width: 100%; }
-    }
-}
-@media (max-width: 600px){
-    .xs-col{
-        &-1{width: 8.3333%;}
-        &-2{width: 16.6666%;}
-        &-3{width: 25%;}
-        &-4{width: 33.3333%;}
-        &-5{width: 41.6666%;}
-        &-6{width: 50%;}
-        &-7{width: 58.3333%;}
-        &-8{width: 66.6666%;}
-        &-9{width: 75%;}
-        &-10{width: 83.3333%;}
-        &-11{width: 91.6666%;}
-        &-12{ width: 100%; }
-    }
-}
 
 .full-height{
     height: 100vh;
@@ -163,18 +74,3 @@ body>.row, body>.row-flex{
 .desk{}
 .mob{}
 .tab{}
-
-
-
-.m-30px{
-    margin: 30px;
-}
-.mt-30px{
-    margin-top: 30px;
-}
-.mt-35px{
-    margin-top: 35px;
-}
-.mb-30px{
-    margin-bottom: 30px;
-}

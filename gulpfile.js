@@ -9,7 +9,7 @@ var pug = require("gulp-pug");
 var del = require("del");
 var rs = require("run-sequence");
 
-gulp.task( 'server', ['scss', 'pug', 'copy:js', 'copy:libs', 'copy:img', 'copy:img2', 'copy:fonts'], function(){
+gulp.task( 'server', ['scss', 'pug', 'copy:js', 'copy:libs', 'copy:img', 'copy:fonts'], function(){
     bs.init({
         server: {
             baseDir: 'build/'
@@ -73,12 +73,11 @@ gulp.task('copy:libs', function(){
         .pipe( bs.stream() );
 });
 gulp.task('copy:img', function(){
-    return gulp.src('src/assets/img/**/*.*')
+    gulp.src('src/assets/img/**/*.*')
         .pipe( gulp.dest('build/assets/img') )
         .pipe( bs.stream() );
-});
-gulp.task('copy:img2', function(){
-    return gulp.src('src/images/**/*.*')
+    
+    gulp.src('src/images/**/*.*')
         .pipe( gulp.dest('build/images') )
         .pipe( bs.stream() );
 });

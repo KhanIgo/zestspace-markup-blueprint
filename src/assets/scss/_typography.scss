@@ -1,33 +1,23 @@
-h1{ 
-    font-size: 4em; 
-    line-height: 1em;
+h1, h2, h3, h4, h5, h6{
+  line-height: 1em;
 }
-h2{ 
-    font-size: 3em; 
-    line-height: 1em;
+h1{
+    font-size: 4em;
 }
-h3{ 
-    font-size: 2.5em; 
-    line-height: 1em;
+h2{
+    font-size: 3em;
 }
-h4{ 
-    font-size: 2em; 
-    line-height: 1em;
+h3{
+    font-size: 2.5em;
+}
+h4{
+    font-size: 2em;
 }
 h5{
-    font-size: 1.5em; 
-    line-height: 1em;
+    font-size: 1.5em;
 }
-h6{ 
-    font-size: 1.25em; 
-    line-height: 1em;
-}
-
-.s-title{
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-    font-weight: 300;    
+h6{
+    font-size: 1.25em;
 }
 
 span.spacer{
@@ -41,14 +31,6 @@ span.spacer{
 
 .ta-center{
     text-align: center;
-}
-
-.p-margin{
-    p{
-        margin: 0.75em 0;
-        &:first-child{margin-top: 0;}
-        &:last-child{margin-bottom: 0;}
-    }
 }
 
 .tdn{ text-decoration: none; }
